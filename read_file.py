@@ -7,13 +7,6 @@ data = {
 }
 
 df = pd.DataFrame(data)  # Creating a DataFrame
-df.to_excel('data.xlsx', index=False)  # Saving DataFrame to an Excel file
-# Reading the Excel file
-df = pd.read_excel('data.xlsx')  # Reading the Excel file
-print(df)  # Displaying the DataFrame
-# The code creates a DataFrame with sample data, saves it to an Excel file, and then reads the file back into a DataFrame, displaying the contents. 
-# The code creates a DataFrame with sample data, saves it to an Excel file, and then reads the file
-# back into a DataFrame, displaying the contents.
-# The code creates a DataFrame with sample data, saves it to an Excel file, and then reads the file
-# back into a DataFrame, displaying the contents.
+df.to_excel('output.xlsx', index=False)  # Saving DataFrame to an Excel file
+
 
